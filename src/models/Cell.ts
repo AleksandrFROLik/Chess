@@ -8,7 +8,7 @@ export class Cell {
   readonly color: Colors;
   figure: Figures | null;
   board: Board;
-  availabel: boolean;
+  available: boolean;
   id: number;
 
   constructor( board: Board, x: number, y: number, color: Colors, figure: Figures | null ) {
@@ -17,7 +17,7 @@ export class Cell {
     this.color = color;
     this.figure = figure;
     this.board = board;
-    this.availabel = false;
+    this.available = false;
     this.id = Math.random()
   }
 }
