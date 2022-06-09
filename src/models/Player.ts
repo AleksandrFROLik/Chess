@@ -1,3 +1,6 @@
 export  class Player {
+if(){
+
+}
 
 }
